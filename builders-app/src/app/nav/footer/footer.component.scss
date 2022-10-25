@@ -1,0 +1,33 @@
+.section-style {
+  background-color: hsl(0, 0%, 24%);
+}
+.list-group-item {
+  background-color: hsl(0, 0%, 24%);
+  color: white;
+  text-align: right;
+}
+.text-link {
+  color: white;
+  text-align: right;
+}
+.style-footer {
+  background-color: hsl(0, 0%, 24%);
+  margin-top: 25%;
+  margin-bottom: 5%;
+  padding-left: 5%;
+  text-align: right;
+}
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+  .style-footer {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 0%;
+  }
+}
+@media only screen and (max-width: 576px){
+  .style-footer {
+    margin-top: 1%;
+    margin-bottom: 5%;
+    margin-left: 0%;
+  }
+}

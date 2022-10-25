@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  APIhg: 'https://api.hgbrasil.com/',
+  APIindicators: 'https://my-json-server.typicode.com/ivamgf/indicators/'
 };
 
 /*
