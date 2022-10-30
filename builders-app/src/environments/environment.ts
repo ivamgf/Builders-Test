@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  APIOpenWeather: `http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=`,
+  APIOpenGeocoding: `http://api.openweathermap.org`,
+  APIOpenWeather: `https://api.openweathermap.org`,
   APIUsers: 'https://my-json-server.typicode.com/ivamgf/Api-mocked/users/'
 };
 
